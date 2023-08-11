@@ -1,6 +1,6 @@
 install:
-        pip install poetry &&\
-        poetry install
+	pip install poetry && \
+	poetry install
 
-start:
-        poetry run projectai/telepuzik.py
+#run:
+#    poetry run python projectai/telepuzik.py
